@@ -14,9 +14,9 @@ class FarmScreen extends StatelessWidget {
       body: Column(
         children: const <Widget> [
             SizedBox(height: 20,),
-            Row1(),
+            FotoFarm(),
             SizedBox(height: 20,),
-            Row2()
+            TextoFarm()
         ],
       ),
       backgroundColor: Colors.greenAccent,
@@ -24,9 +24,9 @@ class FarmScreen extends StatelessWidget {
   }
 }
 
-class Row1 extends StatelessWidget {
+class FotoFarm extends StatelessWidget {
 
-  const Row1({super.key});
+  const FotoFarm({super.key});
 
 
   @override
@@ -47,9 +47,9 @@ class Row1 extends StatelessWidget {
   }
 }
 
-class Row2 extends StatelessWidget {
+class TextoFarm extends StatelessWidget {
 
-  const Row2({super.key});
+  const TextoFarm({super.key});
 
 
 

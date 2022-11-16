@@ -1,5 +1,4 @@
 import 'package:fl_components/routes/equipos_routes.dart';
-import 'package:fl_components/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 class EquiposInazuma extends StatelessWidget {
@@ -11,7 +10,7 @@ class EquiposInazuma extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Equipos Inazuma'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.lime,
       ),
       body: ListView.separated(
         itemBuilder: (context, index) => ListTile( 
