@@ -1,6 +1,5 @@
 import 'package:fl_components/routes/app_routes.dart';
 import 'package:flutter/material.dart';
-import 'screens.dart';
 
 class HomeScreen extends StatelessWidget {
    
@@ -18,7 +17,6 @@ class HomeScreen extends StatelessWidget {
           leading: Icon (AppRoutes.MenuOptions[index].icon),
           title:  Text(AppRoutes.MenuOptions[index].name),
           onTap: () {
-            final route = MaterialPageRoute(builder: (context) => const ListView1Screen());
             Navigator.pushNamed(context, AppRoutes.MenuOptions[index].route);
           },
         ), 
