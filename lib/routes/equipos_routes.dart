@@ -1,6 +1,5 @@
 import 'package:fl_components/models/models.dart';
 import 'package:fl_components/screens/equipos_screens.dart';
-import 'package:fl_components/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 class EquiposRoutes {
@@ -41,18 +40,5 @@ class EquiposRoutes {
       screen: const OccultScreen(),
     ),
   ];
-
-  static Map<String, Widget Function(BuildContext)> getEquiposRoutes(){
-    Map<String, Widget Function(BuildContext)> equiposRoutes = { };
-
-    for(final option in OpcionesEquipos) {
-      equiposRoutes.addAll({ option.route : (BuildContext context) => option.screen });
-    }
-
-    return equiposRoutes;
-  }
-
-  static Route<dynamic> onGenerateRoute (RouteSettings settings) {
-        return MaterialPageRoute(builder: (context) => const AlertScreen(),);
-      }
+  
 }
