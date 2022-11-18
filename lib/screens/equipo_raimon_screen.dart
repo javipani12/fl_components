@@ -52,11 +52,11 @@ class TextoRaimon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: const [
+    return Card(
+      //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      child:  
         Text('El Instituto Raimon destaca por su coraje y garra'),
-      ],
+      
     );
   }
 }

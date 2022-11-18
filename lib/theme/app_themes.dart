@@ -13,8 +13,14 @@ class AppThemes{
           elevation: 0,
         ),
 
+        // ListTile Theme
         listTileTheme: const ListTileThemeData(
           iconColor: primary,
+        ),
+
+        // TextButton Theme
+        textButtonTheme: TextButtonThemeData(
+          style: TextButton.styleFrom( primary: primary)
         ),
       );
   
