@@ -1,9 +1,9 @@
 import 'package:fl_components/routes/equipos_routes.dart';
 import 'package:flutter/material.dart';
 
-class EquiposInazuma extends StatelessWidget {
+class ListviewInazuma extends StatelessWidget {
    
-  const EquiposInazuma({Key? key}) : super(key: key);
+  const ListviewInazuma({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {

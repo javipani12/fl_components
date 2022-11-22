@@ -1,4 +1,5 @@
 import 'package:fl_components/models/models.dart';
+import 'package:fl_components/screens/equipo_occult_jugadores_screen.dart';
 import 'package:fl_components/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -9,18 +10,18 @@ class JugadoresEquiposRoutes {
       route: 'jugadores_raimon',
       icon: Icons.sports_soccer,
       name: 'Instituto Raimon',
-      screen: const RaimonScreen(),
+      screen: const JugadoresRaimonScreen(),
     ),
 
     MenuOption(
-      route: 'royal',
+      route: 'jugadores_royal',
       icon: Icons.sports_soccer,
       name: 'Royal Academy',
       screen: const RoyalScreen(),
     ),
 
     MenuOption(
-      route: 'zeus',
+      route: 'jugadores_zeus',
       icon: Icons.sports_soccer,
       name: 'Instituto Zeus',
       screen: const ZeusScreen(),
@@ -34,10 +35,10 @@ class JugadoresEquiposRoutes {
     ),
 
     MenuOption(
-      route: 'occult',
+      route: 'jugadores_occult',
       icon: Icons.sports_soccer,
       name: 'Instituto Occult',
-      screen: const OccultScreen(),
+      screen: const JugadoresOccultScreen(),
     ),
   ];
   

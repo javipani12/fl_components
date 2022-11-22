@@ -16,17 +16,17 @@ class AppRoutes {
     ),
 
     MenuOption( 
-      route: 'listview1', 
+      route: 'plantillas_equipos', 
       icon: Icons.list_outlined, 
-      name: 'List View 1', 
-      screen: const ListView1Screen(), 
+      name: 'Plantillas Equipos', 
+      screen: const ListviewJugadoresEquipos(), 
     ),
 
     MenuOption( 
       route: 'lista_equipos', 
       icon: Icons.list_alt_outlined, 
       name: 'Equipos Inazuma', 
-      screen: const EquiposInazuma(), 
+      screen: const ListviewInazuma(), 
     ),
 
     MenuOption( 

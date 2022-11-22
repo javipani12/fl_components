@@ -1,17 +1,17 @@
 import 'package:fl_components/routes/jugadores_equipos_routes.dart';
 import 'package:flutter/material.dart';
 
-class ListView1Screen extends StatelessWidget {
+class ListviewJugadoresEquipos extends StatelessWidget {
 
   // final options = const['Instituto Raimon', 'Royal Academy', 'Instituto Zeus', 'Instituto Farm', 'Instituto Occult'];
    
-  const ListView1Screen({Key? key}) : super(key: key);
+  const ListviewJugadoresEquipos({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ListView 1'),
+        title: const Text('Plantillas Equipos'),
       ),
       /*body: ListView(
         children: [
