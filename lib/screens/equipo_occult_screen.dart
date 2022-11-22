@@ -52,11 +52,8 @@ class TextoOccult extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: const [
-        Text('El Instituto Occult es un equipo con habilidades extrañas'),
-      ],
+    return const Card(
+      child: Text('El Instituto Occult es un equipo con habilidades extrañas'),
     );
   }
 }

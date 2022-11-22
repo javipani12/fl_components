@@ -55,11 +55,8 @@ class TextoFarm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: const [
-        Text('El Instituto Farm destaca por su capacidad defensiva'),
-      ],
+    return const Card (
+      child: Text('El Instituto Farm destaca por su capacidad defensiva'),
     );
   }
 }

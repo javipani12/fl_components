@@ -52,11 +52,8 @@ class TextoZeus extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: const [
-        Text('Se consideran los "Dioses" del fútbol'),
-      ],
+    return const Card(
+      child: Text('Se consideran los "Dioses" del fútbol'),
     );
   }
 }

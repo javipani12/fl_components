@@ -1,9 +1,9 @@
-import 'package:fl_components/widgets/widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:fl_components/widgets/widgets.dart';
 
-class CardScreen extends StatelessWidget {
+class JugadoresFarmScreen extends StatelessWidget {
    
-  const CardScreen({Key? key}) : super(key: key);
+  const JugadoresFarmScreen({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {
@@ -14,9 +14,7 @@ class CardScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
         children: const[
-          CustomCardTipo1(),
-          SizedBox(height: 10),
-          CustomCardTipo2(imageURL: 'https://mgrgaming.co.za/wp-content/uploads/Candy.png', nombre: 'Surviving Mars',),
+          CustomCardTipo2(imageURL: 'https://mgrgaming.co.za/wp-content/uploads/Candy.png', nombre: 'Hillvalley',),
           SizedBox(height: 10),
           CustomCardTipo2(imageURL: 'https://as01.epimg.net/meristation/imagenes/2019/02/16/noticias/1550308133_525712_1550308658_noticia_normal.jpg', nombre: 'Kingdom Come Deliverance',),
           SizedBox(height: 10),

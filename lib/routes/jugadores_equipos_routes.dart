@@ -2,11 +2,11 @@ import 'package:fl_components/models/models.dart';
 import 'package:fl_components/screens/screens.dart';
 import 'package:flutter/material.dart';
 
-class EquiposRoutes {
+class JugadoresEquiposRoutes {
 
-  static final OpcionesEquipos = <MenuOption> [
+  static final JugadoresEquipos = <MenuOption> [
     MenuOption(
-      route: 'raimon',
+      route: 'jugadores_raimon',
       icon: Icons.sports_soccer,
       name: 'Instituto Raimon',
       screen: const RaimonScreen(),
@@ -27,10 +27,10 @@ class EquiposRoutes {
     ),
 
     MenuOption(
-      route: 'farm',
+      route: 'jugadores_farm',
       icon: Icons.sports_soccer,
       name: 'Instituto Farm',
-      screen: const FarmScreen(),
+      screen: const JugadoresFarmScreen(),
     ),
 
     MenuOption(

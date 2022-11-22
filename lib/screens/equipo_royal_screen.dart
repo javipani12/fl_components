@@ -52,11 +52,8 @@ class TextoRoyal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: const [
-        Text('La Royal destaca por sus trampas en el campo'),
-      ],
+    return const Card(
+      child: Text('La Royal destaca por sus trampas en el campo'),
     );
   }
 }

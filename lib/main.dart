@@ -1,5 +1,4 @@
 import 'package:fl_components/routes/app_routes.dart';
-import 'package:fl_components/routes/equipos_routes.dart';
 import 'package:fl_components/theme/app_themes.dart';
 import 'package:flutter/material.dart';
 

@@ -33,14 +33,13 @@ class FotoRaimon extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: const [
-        Expanded(
-          child: Image(
+        FadeInImage(
             image: NetworkImage("https://static.wikia.nocookie.net/inazuma-eleven/images/4/40/Raimon_SD.png/revision/latest?cb=20220703151255"),
             height: 100,
             width: 100,
             alignment: Alignment.bottomCenter,
+            placeholder: AssetImage('assets/jar-loading.gif'),
           ),
-        ),
       ],
     );
   }
@@ -52,11 +51,8 @@ class TextoRaimon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      child:  
-        Text('El Instituto Raimon destaca por su coraje y garra'),
-      
+    return const Card(
+      child: Text('El Instituto Raimon destaca por su coraje y garra'),
     );
   }
 }

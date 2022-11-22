@@ -1,5 +1,6 @@
 import 'package:fl_components/models/models.dart';
 import 'package:fl_components/routes/equipos_routes.dart';
+import 'package:fl_components/routes/jugadores_equipos_routes.dart';
 import 'package:fl_components/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -53,6 +54,10 @@ class AppRoutes {
 
     
     for(final option in EquiposRoutes.OpcionesEquipos) {
+      appRoutes.addAll({ option.route : (BuildContext context) => option.screen });
+    }
+
+    for(final option in JugadoresEquiposRoutes.JugadoresEquipos) {
       appRoutes.addAll({ option.route : (BuildContext context) => option.screen });
     }
 
