@@ -43,6 +43,20 @@ class AppRoutes {
       screen: const AlertScreen(), 
     ),
 
+    MenuOption( 
+      route: 'mensajes_alerta', 
+      icon: Icons.warning, 
+      name: 'Mensajes Alerta', 
+      screen: const MensajesAlertaScreen(), 
+    ),
+    
+    MenuOption( 
+      route: 'avatar', 
+      icon: Icons.supervised_user_circle_rounded, 
+      name: 'Avatar', 
+      screen: const AvatarScreen(), 
+    ),
+
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes(){
@@ -52,7 +66,6 @@ class AppRoutes {
       appRoutes.addAll({ option.route : (BuildContext context) => option.screen });
     }
 
-    
     for(final option in EquiposRoutes.OpcionesEquipos) {
       appRoutes.addAll({ option.route : (BuildContext context) => option.screen });
     }
