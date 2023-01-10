@@ -78,6 +78,13 @@ class AppRoutes {
       screen: const SliderScreen(), 
     ),
 
+    MenuOption( 
+      route: 'listview_builder', 
+      icon: Icons.circle_outlined, 
+      name: 'Listview Builder', 
+      screen: const ListviewBuilderScreen(), 
+    ),
+
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes(){
