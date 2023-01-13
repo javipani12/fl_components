@@ -84,6 +84,13 @@ class AppRoutes {
       name: 'Listview Builder', 
       screen: const ListviewBuilderScreen(), 
     ),
+    
+    MenuOption( 
+      route: 'slider2', 
+      icon: Icons.animation_outlined, 
+      name: 'Slider & Checks 2', 
+      screen: const SliderCheckboxScreen(), 
+    ),
 
   ];
 
